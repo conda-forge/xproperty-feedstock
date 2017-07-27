@@ -1,6 +1,6 @@
 {% set name = "xproperty" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "132873858feb08ab2bf7f3e49ae433e6020697943e1b9b36635c5d85e6dc0808" %}
+{% set version = "0.1.2" %}
+{% set sha256 = "e0bf7bdd6e0ef4496f3a3ffcdcd51ebefb9a780d165779bff354baf94eb72eda" %} 
 
 package:
   name: {{ name|lower }}
