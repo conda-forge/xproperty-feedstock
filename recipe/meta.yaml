@@ -1,6 +1,6 @@
 {% set name = "xproperty" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "71d406acafc9ab4c0c85a0c7968977d0057863426168b5621ec900e6405dc487" %}
+{% set version = "0.4.1" %}
+{% set sha256 = "e3b02c70fb9cc98443e6987c87e8fe1f1723058423ad7a6d639a9961911da89d" %}
 
 package:
   name: {{ name|lower }}
@@ -19,7 +19,7 @@ requirements:
     - toolchain
     - cmake
   run:
-    - xtl
+    - xtl >=0.3.4,<0.4
 
 test:
   commands:
