@@ -14,14 +14,16 @@ Leveraging C++ template and preprocessor metaprogramming techniques
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/xproperty-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/xproperty-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/xproperty-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/xproperty-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/xproperty-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/xproperty-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/xproperty-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/xproperty-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/xproperty-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/xproperty-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/xproperty-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/xproperty-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xproperty/badges/version.svg)](https://anaconda.org/conda-forge/xproperty)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xproperty/badges/downloads.svg)](https://anaconda.org/conda-forge/xproperty)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-xproperty-green.svg)](https://anaconda.org/conda-forge/xproperty) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/xproperty.svg)](https://anaconda.org/conda-forge/xproperty) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/xproperty.svg)](https://anaconda.org/conda-forge/xproperty) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/xproperty.svg)](https://anaconda.org/conda-forge/xproperty) |
 
 Installing xproperty
 ====================
