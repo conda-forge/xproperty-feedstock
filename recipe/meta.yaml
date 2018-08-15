@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 3
   skip: True  # [win and vc<14]
 
 requirements:
@@ -31,11 +31,10 @@ test:
     - test -f ${PREFIX}/lib/cmake/xproperty/xpropertyConfig.cmake  # [unix]
     - test -f ${PREFIX}/lib/cmake/xproperty/xpropertyConfigVersion.cmake  # [unix]
     - test -f ${PREFIX}/lib/cmake/xproperty/xpropertyTargets.cmake  # [unix]
-    # TODO: replace with %PREFIX%\Library with %LIBRARY_PREFIX%
-    - if exist %PREFIX%\Library\include\xproperty\xproperty.hpp (exit 0) else (exit 1)  # [win]
-    - if exist %PREFIX%\Library\cmake\xproperty\xpropertyConfig.cmake (exit 0) else (exit 1)  # [win]
-    - if exist %PREFIX%\Library\lib\cmake\xproperty\xpropertyConfigVersion.cmake (exit 0) else (exit 1)  # [win]
-    - if exist %PREFIX%\Library\lib\cmake\xproperty\xpropertyTargets.cmake (exit 0) else (exit 1)  # [win]
+    - if exist %LIBRARY_PREFIX%\include\xproperty\xproperty.hpp (exit 0) else (exit 1)  # [win]
+    - if exist %LIBRARY_PREFIX%\lib\cmake\xproperty\xpropertyConfig.cmake (exit 0) else (exit 1)  # [win]
+    - if exist %LIBRARY_PREFIX%\lib\cmake\xproperty\xpropertyConfigVersion.cmake (exit 0) else (exit 1)  # [win]
+    - if exist %LIBRARY_PREFIX%\lib\cmake\xproperty\xpropertyTargets.cmake (exit 0) else (exit 1)  # [win]
 
 about:
   home: http://quantstack.net/xproperty
