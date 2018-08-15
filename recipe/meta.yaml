@@ -12,13 +12,14 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 2
   skip: True  # [win and vc<14]
 
 requirements:
   build:
     - {{ compiler('cxx') }}
     - cmake
+  host:
     - xtl >=0.4.0,<0.5
   run:
     - xtl >=0.4.0,<0.5
@@ -41,7 +42,7 @@ about:
   license: BSD 3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: C++ properties and obeserver pattern
+  summary: C++ properties and observer pattern
   description: Leveraging C++ template and preprocessor metaprogramming techniques
   doc_url: http://xproperty.readthedocs.io
   dev_url: https://github.com/QuantStack/xproperty
