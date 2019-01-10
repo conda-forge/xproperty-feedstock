@@ -20,9 +20,9 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
   host:
-    - xtl >=0.4.0,<0.6
+    - xtl >=0.5.2,<0.6
   run:
-    - xtl >=0.4.0,<0.6
+    - xtl >=0.5.2,<0.6
 
 test:
   commands:
