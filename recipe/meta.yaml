@@ -1,6 +1,6 @@
 {% set name = "xproperty" %}
-{% set version = "0.8.0" %}
-{% set sha256 = "d1461e00e3f5a7c7781ea01c5c78954fb0fe6040b28b9f33ef43198fea39fe49" %}
+{% set version = "0.8.1" %}
+{% set sha256 = "7b1512f9a98d62ad2c29d7c1d7851a3359c0fc58e2c833c49aa9e02efc23400f" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   skip: True  # [win and vc<14]
 
 requirements:
