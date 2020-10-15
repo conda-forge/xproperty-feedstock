@@ -3,11 +3,15 @@ About xproperty
 
 Home: http://quantstack.net/xproperty
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xproperty-feedstock/blob/master/LICENSE.txt)
 
 Summary: C++ properties and observer pattern
+
+Development: https://github.com/QuantStack/xproperty
+
+Documentation: http://xproperty.readthedocs.io
 
 Leveraging C++ template and preprocessor metaprogramming techniques
 
