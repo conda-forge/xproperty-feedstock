@@ -1,6 +1,6 @@
 {% set name = "xproperty" %}
-{% set version = "0.10.4" %}
-{% set sha256 = "3b050dc58c78003117266e593e11fb67cf8dee7051fb0029ae0d09f6b22d598e" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "bf86a11c6758308aa0aa0f64d8dd24cd3e9d78378467b74002f552bfb75fc0eb" %}
 
 package:
   name: {{ name|lower }}
@@ -21,9 +21,9 @@ requirements:
     - cmake
     - make  # [unix]
   host:
-    - xtl >=0.6.11,<0.7
+    - xtl >=0.7.0,<0.8
   run:
-    - xtl >=0.6.11,<0.7
+    - xtl >=0.7.0,<0.8
 
 test:
   commands:
