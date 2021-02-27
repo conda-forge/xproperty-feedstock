@@ -8,11 +8,11 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/QuantStack/xproperty/archive/{{ version }}.tar.gz
+  url: https://github.com/jupyter-xeus/xproperty/archive/{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win and vc<14]
 
 requirements:
@@ -38,14 +38,14 @@ test:
     - if exist %LIBRARY_PREFIX%\lib\cmake\xproperty\xpropertyTargets.cmake (exit 0) else (exit 1)  # [win]
 
 about:
-  home: http://quantstack.net/xproperty
+  home: https://xproperty.readthedocs.io
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: C++ properties and observer pattern
   description: Leveraging C++ template and preprocessor metaprogramming techniques
-  doc_url: http://xproperty.readthedocs.io
-  dev_url: https://github.com/QuantStack/xproperty
+  doc_url: https://xproperty.readthedocs.io
+  dev_url: https://github.com/jupyter-xeus/xproperty
 
 extra:
   recipe-maintainers:
