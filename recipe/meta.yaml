@@ -16,13 +16,14 @@ build:
 
 requirements:
   build:
+    - {{ stdlib('c') }}
     - {{ compiler('cxx') }}
     - cmake
     - make  # [unix]
   host:
     - nlohmann_json >=3.11.2
   run:
-    - {{ pin_compatible('nlohmann_json', max_pin='x.x.x') }}
+    - {{ pin_compatible('nlohmann_json', max_pin='x.x.x') }}
 
 test:
   commands:
