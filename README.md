@@ -3,15 +3,15 @@ About xproperty-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xproperty-feedstock/blob/main/LICENSE.txt)
 
-Home: https://xproperty.readthedocs.io
+Home: https://xproperty.readthedocs.io/
 
 Package license: BSD-3-Clause
 
 Summary: C++ properties and observer pattern
 
-Development: https://github.com/jupyter-xeus/xproperty
+Development: https://xproperty.readthedocs.io/
 
-Documentation: https://xproperty.readthedocs.io
+Documentation: https://xproperty.readthedocs.io/
 
 Leveraging C++ template and preprocessor metaprogramming techniques
 
